@@ -1,0 +1,15 @@
+{
+    "model": "RandomForestClassifier",
+    "class_weight": "balanced",
+    "n_estimators": 200,
+    "max_depth": 12,
+    "threshold_selection": "Maximum OOF F1 on training data",
+    "selected_threshold": 0.45,
+    "cross_validation_folds": 5,
+    "random_state": 42,
+    "test_size": 0.2,
+    "app_model_overwritten": false,
+    "app_model_uses_threshold_model": true,
+    "app_model_path": "results/threshold_tuned_random_forest.pkl",
+    "app_classification_threshold": 0.45
+}

@@ -1,0 +1,8 @@
+{
+    "best_experiment": "RF - Class Weight Balanced",
+    "selection_criterion": "Mean F1-score from stratified 5-fold cross-validation on training data",
+    "cross_validation_folds": 5,
+    "random_state": 42,
+    "test_size": 0.2,
+    "note": "Separate research experiment; models/best_model.pkl was not overwritten."
+}

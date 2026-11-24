@@ -23,3 +23,11 @@ desktop.ini
 # Temporary files
 *.log
 *.tmp
+
+# Python test and cache artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local browser captures / downloaded page assets
+test_machines_files/

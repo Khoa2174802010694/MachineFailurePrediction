@@ -1,7 +1,9 @@
 pandas
 numpy
-scikit-learn
+scikit-learn==1.9.1
 matplotlib
 seaborn
 streamlit
 joblib
+imbalanced-learn
+shap==0.50.0

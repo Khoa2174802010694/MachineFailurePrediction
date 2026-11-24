@@ -1,0 +1,20 @@
+Threshold tuning experiment
+===========================
+
+Threshold selected using out-of-fold probabilities from training data only.
+Selected threshold: 0.45
+
+Test-set comparison:
+           Configuration  Threshold  Accuracy  Precision   Recall       F1  ROC-AUC   PR-AUC
+Default threshold (0.50)       0.50     0.973   0.589744 0.676471 0.630137  0.97106 0.719956
+  Tuned threshold (0.45)       0.45     0.972   0.566667 0.750000 0.645570  0.97106 0.719956
+
+Classification report at tuned threshold:
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99      1932
+           1       0.57      0.75      0.65        68
+
+    accuracy                           0.97      2000
+   macro avg       0.78      0.86      0.82      2000
+weighted avg       0.98      0.97      0.97      2000
